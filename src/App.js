@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import firebase from './firebase';
 import { getDatabase, ref, onValue } from 'firebase/database';
 import Distance from './components/Distance';
+import Scene from './components/Scene';
 
 
 
@@ -30,25 +31,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <Distance/>
-    
-
-    <div className="container">
-      
-      
-      <ul>
-
-        {/* {objData[0].map(obj => {
-        return (
-          <li>
-          <p>{obj.player}</p>
-          <p>{obj.era}</p>
-          </li>
-        )
-      
-      })} */}
-      </ul>
-      </div>
+      {/* <Distance/> */}
+      <Scene/>
     </div>
   );
 }

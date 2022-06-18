@@ -2,12 +2,13 @@
 // import { set } from 'firebase/database';
 import { useState } from 'react';
 import data from './data'
+import {motion} from 'framer-motion'
 
 const Distance = () => {
 
     const [language, setLanguage] = useState(['french'])
+    const [rotate, setRotate] = useState(false)
     const handleChange = (e) => {
-        console.log(e.target.value)
         setLanguage(e.target.value)
     }
    
@@ -27,11 +28,23 @@ const Distance = () => {
                 <input
                 className="french"
                 onChange={handleChange}
+                
                 id="french" 
                 type="radio" 
                 value="french" 
                 name="langChoice"/>
-                <label htmlFor="french">FR</label>
+                <motion.label 
+                
+                animate={{x: rotate ? 200 : -200}}
+                transition={{duration: 1}}
+                htmlFor="french"
+                onClick={() => {
+                    setRotate(!rotate)
+                    console.log(rotate)
+                }}
+                >
+                FR</motion.label>
+                
                 <input 
                 className="english"
                 onChange={handleChange} 
