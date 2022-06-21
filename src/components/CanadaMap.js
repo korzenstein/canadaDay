@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
 import provincialData from "../data/provincialData.js";
 
 const pathVariants = {
@@ -27,14 +26,7 @@ const pathVariants = {
   },
 };
 
-const CanadaMap = () => {
-  const [provData, setProvData] = useState(provincialData);
-  const [provChoice, setProvChoice] = useState(["default"]);
-
-  const handleChoice = (province) => {
-    setProvChoice(province);
-    console.log(provChoice);
-  };
+const CanadaMap = ({handleChoice, provChoice}) => {
   return (
     <div>
       <motion.svg
@@ -636,6 +628,7 @@ const CanadaMap = () => {
         </g>
       </motion.svg>
     </div>
+    
   );
 };
 

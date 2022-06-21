@@ -69,8 +69,32 @@ path:hover {
 }
 .flag {
   width: 300px;
+  border-radius: 3px;
+  transition: 1s all ease-in-out;
 }
 
 .flag:hover {
   cursor: pointer;
+}
+
+@keyframes flasher {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.flasher {
+  display: block;
+  animation: flasher 1.3s;
+  /* transition: 1s all ease-in-out; */
+  /* background: red; */
+  /* color: white; */
 }

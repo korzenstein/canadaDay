@@ -1,29 +1,44 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import firebase from "./firebase";
-import { getDatabase, ref, onValue } from "firebase/database";
+import provincialData from "./data/provincialData";
+
+
+// components
+import Flags from "./components/Flags"
+import Facts from './components/Facts'
 import CanadaMap from "./components/CanadaMap";
 import DataVis from "./components/DataVis";
 
-
 const App = () => {
-  const [objData, setObjectData] = useState([]);
-  useEffect(() => {
-    const database = getDatabase(firebase);
-    const dbRef = ref(database);
-    onValue(dbRef, (response) => {
-      const newState = [];
-      console.log(response.val());
-      const data = response.val();
-      for (let key in data) {
-        newState.push(data[key]);
-      }
-      setObjectData(newState);
-    });
-  }, []);
+  const newProvArray = Object.entries(provincialData)
+  const [provArray, setProvArray] = useState(newProvArray)
+  const [provChoice, setProvChoice] = useState(["default"]);
+
+   const handleChoice = (province) => {
+    setProvChoice(province);
+    console.log(provChoice);
+  };
+
   return (
     <div className="App">
-      <CanadaMap />
+      <CanadaMap 
+      handleChoice={handleChoice}
+      provChoice={provChoice}
+      setProvChoice={setProvChoice}
+      />
+      <Flags
+      handleChoice={handleChoice}
+      provChoice={provChoice}
+      setProvChoice={setProvChoice}
+      provArray={provArray}
+      />
+      {/* <Facts
+      handleChoice={handleChoice}
+      provChoice={provChoice}
+      setProvChoice={setProvChoice}
+      provArray={provArray}
+
+      /> */}
     </div>
   );
 };
