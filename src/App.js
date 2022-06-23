@@ -1,5 +1,5 @@
-import "./App.css";
-import { useEffect, useState } from "react";
+import "./style/sass/App.scss";
+import { useState } from "react";
 import provincialData from "./data/provincialData";
 
 
@@ -13,14 +13,25 @@ const App = () => {
   const newProvArray = Object.entries(provincialData)
   const [provArray, setProvArray] = useState(newProvArray)
   const [provChoice, setProvChoice] = useState(["default"]);
+  const [flagToggle, setFlagToggle ] = useState(false)
+
 
    const handleChoice = (province) => {
     setProvChoice(province);
+    setFlagToggle(false)
     console.log(provChoice);
   };
 
+    const flagHandler = () => {
+        console.log(provChoice)
+        setFlagToggle(!flagToggle)
+
+    }
+
   return (
-    <div className="App">
+    <main className="main">
+      <div className="wrapper">
+      <h1>Encyclopedia <span>Canadiana</span></h1>
       <CanadaMap 
       handleChoice={handleChoice}
       provChoice={provChoice}
@@ -31,15 +42,17 @@ const App = () => {
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
+      flagHandler={flagHandler}
+      flagToggle={flagToggle}
       />
-      {/* <Facts
+      <Facts
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
-
-      /> */}
-    </div>
+      />
+      </div>
+    </main>
   );
 };
 

@@ -1,0 +1,68 @@
+.mapContainer {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    /* height: 600px; */
+}
+
+
+
+.alberta,
+.bc,
+.yukon,
+.sask,
+.nwt,
+.nunavut,
+.manitoba,
+.ontario,
+.pei,
+.nb,
+.nova,
+.nfld,
+.quebec {
+    /* fill: none; */
+    /* stroke: #2D846D; */
+    stroke-width: 1;
+    fill: #5e82b5;
+    stroke: #261604;
+}
+
+path:hover {
+    cursor: pointer;
+}
+
+.cssChange {
+    fill: #c64a3a;
+    stroke: #261604;
+    stroke-width: 1;
+    transition: 0.4s ease-in-out;
+}
+
+.flag {
+    width: 300px;
+    border-radius: 3px;
+    transition: 1s all ease-in-out;
+}
+
+.flag:hover {
+    cursor: pointer;
+}
+
+@keyframes flasher {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flasher {
+    display: block;
+    animation: flasher 1.3s;
+}
