@@ -41,17 +41,7 @@ const Facts = ({ provChoice, provArray }) => {
             </>
           );
         })}
-      {/* <div className="title">
-        {provArray.map((item) => {
-          return (
-            <>
-              {item[0] === provChoice ? (
-                <p className="title">{item[1].province}</p>
-              ) : null}
-            </>
-          );
-        })}
-      </div> */}
+      
       </div>
       <div className="buttonsContainer">
         <input type="radio" 

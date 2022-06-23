@@ -8,6 +8,7 @@ import Flags from "./components/Flags"
 import Facts from './components/Facts'
 import CanadaMap from "./components/CanadaMap";
 import DataVis from "./components/DataVis";
+import Title from "./components/Title";
 
 const App = () => {
   const newProvArray = Object.entries(provincialData)
@@ -31,7 +32,10 @@ const App = () => {
   return (
     <main className="main">
       <div className="wrapper">
-      <h1>Encyclopedia <span>Canadiana</span></h1>
+      <Title
+      provChoice={provChoice}
+      provArray={provArray}
+      />
       <CanadaMap 
       handleChoice={handleChoice}
       provChoice={provChoice}
