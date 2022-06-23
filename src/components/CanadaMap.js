@@ -28,7 +28,7 @@ const pathVariants = {
 
 const CanadaMap = ({handleChoice, provChoice}) => {
   return (
-    <div className="mapContainer">
+    <div className="mapContainer tester">
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         // width="422.184"
@@ -36,7 +36,7 @@ const CanadaMap = ({handleChoice, provChoice}) => {
         height="auto"
       //  height="393.381"
 
-        viewBox="1 1 200 500"
+        viewBox="60 -15 200 500"
         strokeLinecap="round"
         initial="hidden"
         animate="visible"

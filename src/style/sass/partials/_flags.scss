@@ -1,21 +1,28 @@
 .flagsContainer {
+  position: absolute;
+  top: 6%;
+  right: 0%;
+
+  .flagImageContainer {
+    width: 300px;
+    transition: 0.4s all ease-in-out;
+    // &:hover {
+    //     width: 320px;
+    // }
+    .flag {
+      width: 100%;
+      border-radius: 3px;
+      transition: 1s all ease-in-out;
+      &:hover {
+        cursor: pointer;
+        scale: 1.8;
+      }
+    }
+  }
+
+  .flagInfo {
     position: absolute;
-    top: 4%;
+    top: 90%;
     right: 0%;
-
-    .flagImageContainer {
-    width: 100%;
-        .flag {
-           
-        }
-
-    }
-    
-    
-    .flagInfo {
-        position: absolute;
-            top: 90%;
-            right: 0%;
-    }
-    
+  }
 }

@@ -11,7 +11,7 @@ import novaFlag from "../components/flags/novaFlag.svg";
 import nfldFlag from "../components/flags/nfldFlag.svg";
 import peiFlag from "../components/flags/peiFlag.svg";
 import nwtFlag from "../components/flags/nwtFlag.svg";
-import nunavutFlag from "../components/flags/nunavutFlag.svg";
+import nunavutFlag from "../components/flags/nunavutFlag.png";
 // Flower svg
 import albertaFlower from "../assets/albertaFlower.svg";
 import saskFlower from "../assets/saskFlower.svg";
@@ -36,6 +36,10 @@ import peiAnimal from "../assets/peiAnimal.png"
 import yukonAnimal from "../assets/yukonAnimal.png"
 import manitobaAnimal from "../assets/manitobaAnimal.png"
 import albertaAnimal from "../assets/albertaAnimal.png"
+import ontarioAnimal from "../assets/ontarioAnimal.png"
+import nunavutAnimal from "../assets/nunavutAnimal.png"
+import novaAnimal from "../assets/novaAnimal.png"
+import nwtAnimal from "../assets/nwtAnimal.png"
 
 
 
@@ -178,7 +182,7 @@ const provData = {
       },
       fauna: {
         name: "Sable Island Horse",
-        image: "",
+        image: novaAnimal,
       },
       economy: {
         name: "",
@@ -240,7 +244,7 @@ const provData = {
       },
       fauna: {
         name: "Gyrfalcon",
-        image: "",
+        image: nwtAnimal,
       },
       economy: {
         name: "",
@@ -270,7 +274,7 @@ const provData = {
       },
       fauna: {
         name: "Common Loon",
-        image: "",
+        image: ontarioAnimal,
       },
       economy: {
         name: "",
@@ -421,7 +425,7 @@ const provData = {
       },
       fauna: {
         name: "Canadian Inuit Dog",
-        image: "",
+        image: nunavutAnimal,
       },
       economy: {
         name: "",

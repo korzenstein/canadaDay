@@ -7,10 +7,10 @@ const Title = ({ provChoice, provArray }) => {
           return (
             <>
               {item[0] === provChoice ? (
-                <p 
+                <h2 
                 key={item}
                 className="title flasher"
-                >{item[1].province}</p>
+                >{item[1].province}</h2>
               ) : null}
             </>
           );

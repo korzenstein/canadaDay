@@ -38,15 +38,7 @@ path:hover {
     transition: 0.4s ease-in-out;
 }
 
-.flag {
-    width: 300px;
-    border-radius: 3px;
-    transition: 1s all ease-in-out;
-}
 
-.flag:hover {
-    cursor: pointer;
-}
 
 @keyframes flasher {
     0% {
