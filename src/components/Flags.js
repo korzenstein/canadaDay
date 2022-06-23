@@ -8,12 +8,17 @@ const Flags = ({provChoice, provArray, flagHandler, flagToggle}) => {
             return (
                 <div>
                 {item[0] === provChoice ? 
-                <img 
-                // className="flag flasher"
+                <div
                 key={item}
-                className="flag flasher"
+                className="flagImageContainer flasher"
+                >
+                <img 
+                // key={item}
+                className="flag"
                 onClick={() => {flagHandler()}}
-                src={item[1].flag.image} alt={`flag of ${provChoice}`} /> : null}
+                src={item[1].flag.image} alt={`flag of ${provChoice}`} />
+                </div> : null}
+
                 {
                     item[0] === provChoice && flagToggle ? 
                     <>

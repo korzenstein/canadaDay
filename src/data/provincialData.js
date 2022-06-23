@@ -1,11 +1,11 @@
 // Flag svg
 import albertaFlag from "../components/flags/albertaFlag.svg";
-import yukonFlag from "../components/flags/yukonFlag.svg";
-import saskFlag from "../components/flags/saskFlag.svg";
+import yukonFlag from "../components/flags/yukonFlag.png";
+import saskFlag from "../components/flags/saskFlag.png";
 import bcFlag from "../components/flags/bcFlag.svg";
 import manitobaFlag from "../components/flags/manitobaFlag.svg";
 import ontarioFlag from "../components/flags/ontarioFlag.svg";
-import quebecFlag from "../components/flags/quebecFlag.svg";
+import quebecFlag from "../components/flags/quebecFlag.png";
 import nbFlag from "../components/flags/nbFlag.svg";
 import novaFlag from "../components/flags/novaFlag.svg";
 import nfldFlag from "../components/flags/nfldFlag.svg";
@@ -31,6 +31,12 @@ import saskAnimal from "../assets/saskAnimal.png"
 import nbAnimal from "../assets/nbAnimal.png"
 import bcAnimal from "../assets/bcAnimal.png"
 import quebecAnimal from "../assets/quebecAnimal.png"
+import nfldAnimal from "../assets/nfldAnimal.png"
+import peiAnimal from "../assets/peiAnimal.png"
+import yukonAnimal from "../assets/yukonAnimal.png"
+import manitobaAnimal from "../assets/manitobaAnimal.png"
+import albertaAnimal from "../assets/albertaAnimal.png"
+
 
 
 const provData = {
@@ -82,7 +88,7 @@ const provData = {
       },
       fauna: {
         name: "Atlantic Puffin",
-        image: "",
+        image: nfldAnimal,
       },
       economy: {
         name: "",
@@ -112,7 +118,7 @@ const provData = {
       },
       fauna: {
         name: "Red Fox",
-        image: "",
+        image: peiAnimal,
       },
       economy: {
         name: "",
@@ -142,7 +148,7 @@ const provData = {
       },
       fauna: {
         name: "Common Raven",
-        image: "",
+        image: yukonAnimal,
       },
       economy: {
         name: "",
@@ -294,7 +300,7 @@ const provData = {
       },
       fauna: {
         name: "Plains Bison",
-        image: "",
+        image: manitobaAnimal,
       },
       economy: {
         name: "",
@@ -355,7 +361,7 @@ const provData = {
       },
       fauna: {
         name: "Rocky Mountain Bighorn Sheep",
-        image: "",
+        image: albertaAnimal,
       },
       economy: {
         name: "",
