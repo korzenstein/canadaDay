@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import provincialData from "../data/provincialData.js";
+// import provincialData from "../data/provincialData.js";
 
 const pathVariants = {
   hidden: {
@@ -36,7 +36,7 @@ const CanadaMap = ({handleChoice, provChoice}) => {
         height="auto"
       //  height="393.381"
 
-        viewBox="-140 -15 700 500"
+        viewBox="-180 -20 700 500"
         strokeLinecap="round"
         initial="hidden"
         animate="visible"

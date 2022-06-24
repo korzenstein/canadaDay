@@ -1,6 +1,6 @@
 .flagsContainer {
   position: absolute;
-  top: 6%;
+  top: 8%;
   right: 0%;
 
   .flagImageContainer {
@@ -22,7 +22,12 @@
 
   .flagInfo {
     position: absolute;
-    top: 90%;
-    right: 0%;
+    text-align: right;
+    top: 100%;
+    right: 2%;
+    p {
+      background-color: rgb(255, 255, 255, 0.2);
+      display: inline-block;
+    }
   }
 }

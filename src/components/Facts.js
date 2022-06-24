@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
 import { useState } from "react";
 
-import provincialData from "../data/provincialData";
+// import provincialData from "../data/provincialData";
 
 const Facts = ({ provChoice, provArray }) => {
   const [factChoice, setFactChoice] = useState([]);
@@ -62,10 +61,10 @@ const Facts = ({ provChoice, provArray }) => {
                 className="dataSet">
                 
                   <div className="floraImageContainer">
-                    <p
+                    <h5
                     className="subtitle flasher"
                     // key={item}
-                    >{item[1].facts[factChoice]?.name}</p>
+                    >{item[1].facts[factChoice]?.name}</h5>
                     <img
                       // key={item}
                       className="floraImage flasher"
