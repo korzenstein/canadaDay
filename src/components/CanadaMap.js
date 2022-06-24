@@ -36,7 +36,7 @@ const CanadaMap = ({handleChoice, provChoice}) => {
         height="auto"
       //  height="393.381"
 
-        viewBox="60 -15 200 500"
+        viewBox="-140 -15 700 500"
         strokeLinecap="round"
         initial="hidden"
         animate="visible"

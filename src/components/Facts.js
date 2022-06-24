@@ -15,34 +15,6 @@ const Facts = ({ provChoice, provArray }) => {
 
   return (
     <div className="factsContainer">
-      <div className="factsData">
-        {provArray.map((item) => {
-          return (
-            <>
-              {item[0] === provChoice ? (
-                <div 
-                key={item}
-                className="dataSet">
-                
-                  <div className="floraImageContainer">
-                    <img
-                      // key={item}
-                      className="floraImage flasher"
-                      src={item[1].facts[factChoice]?.image}
-                      alt="flower of province"
-                    />
-                    <p
-                    className="subtitle flasher"
-                    // key={item}
-                    >{item[1].facts[factChoice]?.name}</p>
-                  </div>
-                </div>
-              ) : null}
-            </>
-          );
-        })}
-      
-      </div>
       <div className="buttonsContainer">
         <input type="radio" 
         id="flora" 
@@ -80,6 +52,36 @@ const Facts = ({ provChoice, provArray }) => {
         >Economy</label>
       
       </div>
+      <div className="factsData">
+        {provArray.map((item) => {
+          return (
+            <>
+              {item[0] === provChoice ? (
+                <div 
+                key={item}
+                className="dataSet">
+                
+                  <div className="floraImageContainer">
+                    <p
+                    className="subtitle flasher"
+                    // key={item}
+                    >{item[1].facts[factChoice]?.name}</p>
+                    <img
+                      // key={item}
+                      className="floraImage flasher"
+                      src={item[1].facts[factChoice]?.image}
+                      alt="flower of province"
+                    />
+        
+                  </div>
+                </div>
+              ) : null}
+            </>
+          );
+        })}
+      
+      </div>
+      
     </div>
   );
 };
