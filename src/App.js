@@ -1,5 +1,5 @@
 import "./style/sass/App.scss";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import provincialData from "./data/provincialData";
 
 
@@ -11,10 +11,20 @@ import DataVis from "./components/DataVis";
 import Title from "./components/Title";
 
 const App = () => {
-  const newProvArray = Object.entries(provincialData)
-  const [provArray, setProvArray] = useState(newProvArray)
+
   const [provChoice, setProvChoice] = useState(["default"]);
   const [flagToggle, setFlagToggle ] = useState(false)
+  const [langChoice, setLangChoice] = useState("english")
+  const newProvArray = Object.entries(provincialData[langChoice])
+  const [provArray, setProvArray] = useState(newProvArray)
+
+  useEffect(() => {
+    const updatedLanguage = Object.entries(provincialData[langChoice])
+    setProvArray(updatedLanguage)
+
+
+
+  }, [langChoice])
 
 
    const handleChoice = (province) => {
@@ -26,8 +36,16 @@ const App = () => {
     const flagHandler = () => {
         console.log(provChoice)
         setFlagToggle(!flagToggle)
-
     }
+
+    const languageHandler = (language) => {
+      setLangChoice(language)
+    }
+
+        console.log(provArray)
+
+    // console.log(provArray[langChoice].map(item => item.alberta))
+
 
   return (
     <main className="main">
@@ -35,26 +53,35 @@ const App = () => {
       <Title
       provChoice={provChoice}
       provArray={provArray}
+      langChoice={langChoice}
       />
+      <button
+      onClick={() => languageHandler("english")}
+      >EN</button>
+
+      <button
+      onClick={() => languageHandler("french")}
+      >FR</button>
       <CanadaMap 
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       />
-      <Flags
+      {/* <Flags
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
       flagHandler={flagHandler}
       flagToggle={flagToggle}
-      />
-      <Facts
+      /> */}
+      {/* <Facts
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
-      />
+      /> */}
+      
       </div>
     </main>
   );
