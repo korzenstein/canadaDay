@@ -9,6 +9,8 @@ import Facts from './components/Facts'
 import CanadaMap from "./components/CanadaMap";
 import DataVis from "./components/DataVis";
 import Title from "./components/Title";
+import Languages from "./components/Languages";
+
 
 const App = () => {
 
@@ -42,11 +44,6 @@ const App = () => {
       setLangChoice(language)
     }
 
-        console.log(provArray)
-
-    // console.log(provArray[langChoice].map(item => item.alberta))
-
-
   return (
     <main className="main">
       <div className="wrapper">
@@ -55,32 +52,31 @@ const App = () => {
       provArray={provArray}
       langChoice={langChoice}
       />
-      <button
-      onClick={() => languageHandler("english")}
-      >EN</button>
-
-      <button
-      onClick={() => languageHandler("french")}
-      >FR</button>
       <CanadaMap 
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
+      langChoice={langChoice}
       />
-      {/* <Flags
+      <Flags
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
       flagHandler={flagHandler}
       flagToggle={flagToggle}
-      /> */}
-      {/* <Facts
+      langChoice={langChoice}
+      />
+      <Facts
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
       provArray={provArray}
-      /> */}
+      langChoice={langChoice}
+      />
+      <Languages
+      languageHandler={languageHandler} 
+      />
       
       </div>
     </main>

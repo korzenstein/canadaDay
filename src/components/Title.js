@@ -7,15 +7,18 @@ const Title = ({ provChoice, provArray }) => {
           return (
             <>
               {item[0] === provChoice ? (
+                <>
                 <h2 
-                className="title flasher"
+                className="flasher"
                 >{item[1].province}</h2>
+                <h7 className="subInfo flasher">{item[1].population}</h7>
+                <h7 className="subInfo lang flasher">{item[1].language}</h7>
+                <h7 className="subInfo flasher">{item[1].confederation}</h7>
+                <h7 className="subInfo flasher">{item[1].capital}</h7>
+                </>
               ) : null}
               
-              {item[0] === provChoice ? (
-                <h7 className="factoid flasher">{item[1].population}</h7>
-                
-              ) : null}
+              
             </>
 
           );

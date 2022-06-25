@@ -40,6 +40,8 @@ import ontarioAnimal from "../assets/ontarioAnimal.png"
 import nunavutAnimal from "../assets/nunavutAnimal.png"
 import novaAnimal from "../assets/novaAnimal.png"
 import nwtAnimal from "../assets/nwtAnimal.png"
+// national parks
+import novaPark from "../assets/novaPark.jpg"
 
 
 
@@ -65,7 +67,7 @@ const provData = {
         name: "",
         image: "",
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -76,26 +78,27 @@ const provData = {
     },
   },
   nfld: {
-    population: 200000,
+    population: '521,542',
     language: "Anglais",
-    capital: "St. Johns",
+    capital: "Saint-Jean",
     province: "Terre-Neuve-et-Labrador",
     status: "Province",
-    bio: `Newfoundland and Labrador form the most easterly province of Canada. On Newfoundland island, the Norse archaeological site L'Anse aux Meadows is the reputed settlement of Viking explorer Leif Erikson. Gros Morne National Park, on the Gulf of St Lawrence, has cliffs, waterfalls and glacial fjords. Southeastern capital city St. John’s is known for the 17th-century Signal Hill citadel, with a hillside walking trail.`,
+    confederation: "31 Mars 1949 (12e)",
+    bio: `Terre-Neuve-et-Labrador (en anglais : Newfoundland and Labrador) est la province la plus orientale du Canada, située dans la région de l'Atlantique. Elle est constituée de l'île de Terre-Neuve, et de la région continentale du Labrador au nord-ouest, combinant une superficie totale de 405 212 km2. En 2018, sa population est estimée à 525 073 habitants. Environ de 94% de la population de la province vit sur l'île de Terre-Neuve (et ses petites îles voisines), dont plus de la moitié sur la péninsule d'Avalon.`,
     flag: {
       image: nfldFlag,
-      info: "The blue represents the waters of the sea, lakes and rivers; the white represents snow and ice; the red represents human effort, and the yellow gold symbolizes the confidence the people of Newfoundland and Labrador have in themselves and for the future.",
+      info: "French explaination of flag",
     },
     facts: {
       flora: {
-        name: "Pitcher Plant",
+        name: "Sarracénie",
         image: nfldFlower,
       },
       fauna: {
-        name: "Atlantic Puffin",
+        name: "Macareux moine",
         image: nfldAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -106,11 +109,12 @@ const provData = {
     },
   },
   pei: {
-    population: 300000,
-    language: "English",
+    population: '156,947',
+    language: "Anglais",
     capital: "Charlottetown",
-    province: "Prince Edward Island",
+    province: "Île-du-Prince-Édouard",
     status: "Province",
+    confederation: '1er Juillet 1873 (7e)',
     bio: `Words go here eventually`,
     flag: {
       image: peiFlag,
@@ -118,14 +122,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Lady's Slipper",
+        name: "Pantoufle de Dame",
         image: peiFlower,
       },
       fauna: {
-        name: "Red Fox",
+        name: "Renard Rouge",
         image: peiAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -136,26 +140,27 @@ const provData = {
     },
   },
   yukon: {
-    population: 20000,
-    language: "English",
+    population: '43,025',
+    language: "Anglais + Français",
     capital: "Whitehorse",
-    province: "Yukon Territory",
-    status: "Territory",
+    province: "Yukon",
+    status: "Territoire",
     bio: `Workds go here.`,
+    confederation: '13 Juin 1898 (9e)',
     flag: {
       image: yukonFlag,
       info: "The Yukon coat of arms appears on the central panel framed by 2 stems of fireweed. The green symbolizes the forests, white signifies snow and the blue represents Yukon's rivers and lakes.",
     },
     facts: {
       flora: {
-        name: "Fireweed",
+        name: "Épilobe",
         image: yukonFlower,
       },
       fauna: {
-        name: "Common Raven",
+        name: "Grand Corbeau",
         image: yukonAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -166,11 +171,12 @@ const provData = {
     },
   },
   nova: {
-    population: 100000,
-    language: "English",
+    population: '971,395',
+    language: "Anglais",
     capital: "Halifax",
-    province: "Nova Scotia",
+    province: "Nouvelle-Écosse",
     status: "Province",
+    confederation: '1er Juillet 1867 (1er)',
     bio: `Nova Scotia is one of the thirteen provinces and territories of Canada. It is one of the three Maritime provinces and one of the four Atlantic provinces. Nova Scotia is Latin for "New Scotland". Most of the population are native English-speakers and the province's population is 969,383 according to the 2021 Census.`,
     flag: {
       image: novaFlag,
@@ -178,16 +184,16 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Mayflower",
+        name: "Fleur de Mai",
         image: novaFlower,
       },
       fauna: {
-        name: "Sable Island Horse",
+        name: "Cheval de l'île de Sable",
         image: novaAnimal,
       },
-      economy: {
-        name: "",
-        image: "",
+      park: {
+        name: "Cape Breton Highlands NP",
+        image: novaPark,
       },
       trivia: {
         name: "",
@@ -196,11 +202,12 @@ const provData = {
     },
   },
   nb: {
-    population: 800000,
-    language: "English / French",
+    population: '776,827',
+    language: "Français + Anglais",
     capital: "Fredricton",
-    province: "New Brunswick",
+    province: "Nouveau-Brunswick",
     status: "Province",
+    confederation: '1er Juillet 1867 (1er)',
     bio: `New Brunswick is one of the ten provinces of Canada. It is one of the three Maritime provinces and one of the four Atlantic provinces. It is the only province with both English and French as its official languages.`,
     flag: {
       image: nbFlag,
@@ -209,14 +216,14 @@ const provData = {
     
     facts: {
       flora: {
-        name: "Purple Violet",
+        name: "Mésange à tête noire",
         image: nbFlower,
       },
       fauna: {
-        name: "Black-Capped Chickadee",
+        name: "Mésange à Tête Noire",
         image: nbAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -227,11 +234,12 @@ const provData = {
     },
   },
   nwt: {
-    population: 20000,
-    language: "English",
+    population: '44,826',
+    language: "Anglais, Français, Chipewyan, Cri, Flanc-de-chien, Gwich’in, Inuinnaqtun, Inuktitut, Inuvialuktun, Esclave du Nord, Esclave du Sud",
     capital: "Whitehorse",
-    province: "Northwest Territories",
-    status: "Territory",
+    province: "Territoires du Nord-Ouest",
+    status: "Territoire",
+    confederation: "15 Juillet 1870 (5e)",
     bio: `The Northwest Territories of Canada include the regions of Dehcho, North Slave, Sahtu, South Slave and Inuvik. Their remote landscape encompasses forest, mountains, Arctic tundra and islands in the Canadian Arctic Archipelago. Dehcho's Nahanni National Park Reserve centers around the canyons of the South Nahanni River and 90m-high Virginia Falls. The regional capital, Yellowknife, is on the north shore of Great Slave Lake.`,
     flag: {
       image: nwtFlag,
@@ -240,14 +248,14 @@ const provData = {
  
     facts: {
       flora: {
-        name: "Mountain Avens",
+        name: "Benoîte de Montagne",
         image: nwtFlower,
       },
       fauna: {
         name: "Gyrfalcon",
         image: nwtAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -258,11 +266,12 @@ const provData = {
     },
   },
   ontario: {
-    population: 14000000,
-    language: "English",
+    population: '14,566,547',
+    language: "Anglais",
     capital: "Toronto",
     province: "Ontario",
     status: "Province",
+    confederation: "1er Juillet 1867 (1er)",
     bio: `Ontario is a province in east-central Canada that borders the U.S. and the Great Lakes. It's home to Ottawa, Canada's capital, known for Parliament Hill’s Victorian architecture and the National Gallery, featuring Canadian and indigenous art. Toronto, Ontario's capital, is home to the 553m-high CN Tower, with expansive views from its revolving restaurant, as well as High Park, site of a rare oak savannah habitat.`,
     flag: {
       image: ontarioFlag,
@@ -270,14 +279,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "White Trillium",
+        name: "Trille Blanc",
         image: ontarioFlower,
       },
       fauna: {
-        name: "Common Loon",
+        name: "Plongeon Huard",
         image: ontarioAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -288,11 +297,12 @@ const provData = {
     },
   },
   manitoba: {
-    population: 1200000,
-    language: "English",
+    population: '1,369,000',
+    language: "Anglais",
     capital: "Winnipeg",
     province: "Manitoba",
     status: "Province",
+    confederation: '15 Juillet 1870 (5e)',
     bio: `Manitoba is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: manitobaFlag,
@@ -300,14 +310,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Prairie Crocus",
+        name: "Crocus des Prairies",
         image: manitobaFlower,
       },
       fauna: {
-        name: "Plains Bison",
+        name: "Bison des plaines",
         image: manitobaAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -318,11 +328,12 @@ const provData = {
     },
   },
   sask: {
-    population: 1000000,
-    language: "English",
+    population: '1,174,000',
+    language: "Anglais",
     capital: "Regina",
     province: "Saskatchewan",
     status: "Province",
+    confederation: '1er Septembre 1905 (10e)',
     bio: `Saska is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: saskFlag,
@@ -331,14 +342,14 @@ const provData = {
     
     facts: {
       flora: {
-        name: "Western Red Lily",
+        name: "Lys rouge occidental",
         image: saskFlower,
       },
       fauna: {
-        name: "White-Tailed Deer",
+        name: "Cerf de Virginie",
         image: saskAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -349,11 +360,12 @@ const provData = {
     },
   },
   alberta: {
-    population: 3200000,
-    language: "English",
+    population: '4,371,000',
+    language: "Anglais",
     capital: "Edmonton",
     province: "Alberta",
     status: "Province",
+    confederation: '	1er Septembre 1905 (10e)',
     bio: `Alberta is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: albertaFlag,
@@ -361,14 +373,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Wild Rose",
+        name: "Rose Sauvage",
         image: albertaFlower,
       },
       fauna: {
-        name: "Rocky Mountain Bighorn Sheep",
+        name: "Mouflon des Montagnes Rocheuses",
         image: albertaAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -379,11 +391,12 @@ const provData = {
     },
   },
   bc: {
-    population: 4020000,
-    language: "English",
+    population: '5,071,000',
+    language: "Anglais",
     capital: "Victoria",
-    province: "British Columbia",
+    province: "Colombie Britannique",
     status: "Province",
+    confederation: '20 juillet 1871 (6e)',
     bio: `British Columbia, Canada's westernmost province, is defined by its Pacific coastline and mountain ranges. Nature areas like Glacier National Park offer hiking and biking trails, as well as campgrounds. Whistler Blackcomb is a major ski resort that hosted the 2010 Winter Olympics. The scenic Sea-to-Sky Highway links Whistler with Vancouver, a city known for its film industry, at the province's southern U.S. border.`,
     flag: {
       image: bcFlag,
@@ -391,14 +404,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Pacific Dogwood",
+        name: "Cornouiller du Pacifique",
         image: bcFlower,
       },
       fauna: {
-        name: "Spirit Bear",
+        name: "Ours Kermode",
         image: bcAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -409,11 +422,12 @@ const provData = {
     },
   },
   nunavut: {
-    population: 20000,
-    language: "English / Inut",
+    population: '39,736',
+    language: "Inuktitut, Inuinnaqtun, Anglais + Français",
     capital: "Iqaluit",
     province: "Nunavut",
-    status: "Territory",
+    status: "Territoire",
+    confederation: '1er avril 1999 (13e)',
     bio: `Nunavut is a massive, sparsely populated territory of northern Canada, forming most of the Canadian Arctic Archipelago. Its islands have expanses of tundra, craggy mountains and remote villages, accessible only by plane or boat. It's known for its indigenous Inuit people's artwork, carvings and handmade clothing. Inuit art is displayed at the Nunatta Sunakkutaangit Museum in the capital, Iqaluit, on Baffin Island.`,
     flag: {
       image: nunavutFlag,
@@ -421,14 +435,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Purple Saxifrage",
+        name: "Saxifrage Pourpre",
         image: nunavutFlower,
       },
       fauna: {
-        name: "Canadian Inuit Dog",
+        name: "Chien Inuit Canadien",
         image: nunavutAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -439,11 +453,12 @@ const provData = {
     },
   },
   quebec: {
-    population: 12000000,
-    language: "French",
-    capital: "Quebec City",
-    province: "Quebec",
+    population: '8,501,833 ',
+    language: "Français",
+    capital: "Ville de Québec",
+    province: "Québec",
     status: "Province",
+    confederation: '1er Juillet 1867 (1er)',
     bio: `Québec is a predominantly French-speaking province in eastern Canada with 2 vibrant cities in its south, connected by the Chemin du Roy highway along the Saint Lawrence River. The metropolis Montréal is named after Mt. Royal, the triple-peaked hill at its heart. Dating to 1608, Québec City retains its old colonial core, Place Royale, and historic harbor, Vieux Port, now known for nightlife. `,
     flag: {
       image: quebecFlag,
@@ -451,14 +466,14 @@ const provData = {
     },
     facts: {
       flora: {
-        name: "Iris Versicolor",
+        name: "Iris Versicolore",
         image: quebecFlower,
       },
       fauna: {
-        name: "Snowy Owl",
+        name: "Harfang des Neiges",
         image: quebecAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -492,7 +507,7 @@ const provData = {
         name: "",
         image: "",
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -503,11 +518,12 @@ const provData = {
     },
   },
   nfld: {
-    population: 200000,
+    population: '521,542',
     language: "English",
     capital: "St. Johns",
     province: "New Foundland & Labrador",
     status: "Province",
+    confederation: "March 31, 1949 (12th)",
     bio: `Newfoundland and Labrador form the most easterly province of Canada. On Newfoundland island, the Norse archaeological site L'Anse aux Meadows is the reputed settlement of Viking explorer Leif Erikson. Gros Morne National Park, on the Gulf of St Lawrence, has cliffs, waterfalls and glacial fjords. Southeastern capital city St. John’s is known for the 17th-century Signal Hill citadel, with a hillside walking trail.`,
     flag: {
       image: nfldFlag,
@@ -522,7 +538,7 @@ const provData = {
         name: "Atlantic Puffin",
         image: nfldAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -533,12 +549,13 @@ const provData = {
     },
   },
   pei: {
-    population: 300000,
+    population: '156,947',
     language: "English",
     capital: "Charlottetown",
     province: "Prince Edward Island",
     status: "Province",
     bio: `Words go here eventually`,
+    condederation: 'July 1, 1873 (8th)',
     flag: {
       image: peiFlag,
       info: "The English heraldic lion is also used on the Coat of Arms of Prince Edward, Duke of Kent, and of King Edward VII. The large oak tree on the right was originally intended to represent England, while the three saplings stand for the three counties into which the province has been divided since 1767.",
@@ -552,7 +569,7 @@ const provData = {
         name: "Red Fox",
         image: peiAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -563,11 +580,12 @@ const provData = {
     },
   },
   yukon: {
-    population: 20000,
-    language: "English",
+    population: '43,025',
+    language: "English + French",
     capital: "Whitehorse",
     province: "Yukon Territory",
     status: "Territory",
+    confederation: 'June 13, 1898 (9th)',
     bio: `Workds go here.`,
     flag: {
       image: yukonFlag,
@@ -582,7 +600,7 @@ const provData = {
         name: "Common Raven",
         image: yukonAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -593,11 +611,12 @@ const provData = {
     },
   },
   nova: {
-    population: 100000,
+    population: '971,395',
     language: "English",
     capital: "Halifax",
     province: "Nova Scotia",
     status: "Province",
+    confederation: 'July 1, 1867 (1st)',
     bio: `Nova Scotia is one of the thirteen provinces and territories of Canada. It is one of the three Maritime provinces and one of the four Atlantic provinces. Nova Scotia is Latin for "New Scotland". Most of the population are native English-speakers and the province's population is 969,383 according to the 2021 Census.`,
     flag: {
       image: novaFlag,
@@ -612,9 +631,9 @@ const provData = {
         name: "Sable Island Horse",
         image: novaAnimal,
       },
-      economy: {
-        name: "",
-        image: "",
+      park: {
+        name: "Parc national des Hautes-Terres-du-Cap-Breton",
+        image: novaPark,
       },
       trivia: {
         name: "",
@@ -623,11 +642,12 @@ const provData = {
     },
   },
   nb: {
-    population: 800000,
-    language: "English / French",
+    population: '776,827',
+    language: "English + French",
     capital: "Fredricton",
     province: "New Brunswick",
     status: "Province",
+    confederation: 'July 1, 1867 (1st)',
     bio: `New Brunswick is one of the ten provinces of Canada. It is one of the three Maritime provinces and one of the four Atlantic provinces. It is the only province with both English and French as its official languages.`,
     flag: {
       image: nbFlag,
@@ -643,7 +663,7 @@ const provData = {
         name: "Black-Capped Chickadee",
         image: nbAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -654,11 +674,12 @@ const provData = {
     },
   },
   nwt: {
-    population: 20000,
-    language: "English",
+    population: '44,826',
+    language: "English, French, Chipewyan, Cree, Gwich’in, Inuinnaqtun, Inuktitut, Inuvialuktun, North Slavey, South Slavey, Tłı̨chǫ",
     capital: "Whitehorse",
     province: "Northwest Territories",
     status: "Territory",
+    confederation: 'July 15, 1870 (5e)',
     bio: `The Northwest Territories of Canada include the regions of Dehcho, North Slave, Sahtu, South Slave and Inuvik. Their remote landscape encompasses forest, mountains, Arctic tundra and islands in the Canadian Arctic Archipelago. Dehcho's Nahanni National Park Reserve centers around the canyons of the South Nahanni River and 90m-high Virginia Falls. The regional capital, Yellowknife, is on the north shore of Great Slave Lake.`,
     flag: {
       image: nwtFlag,
@@ -674,7 +695,7 @@ const provData = {
         name: "Gyrfalcon",
         image: nwtAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -685,11 +706,12 @@ const provData = {
     },
   },
   ontario: {
-    population: 14000000,
+    population: '14,566,547',
     language: "English",
     capital: "Toronto",
     province: "Ontario",
     status: "Province",
+    confederation: 'July 1, 1867 (1st)',
     bio: `Ontario is a province in east-central Canada that borders the U.S. and the Great Lakes. It's home to Ottawa, Canada's capital, known for Parliament Hill’s Victorian architecture and the National Gallery, featuring Canadian and indigenous art. Toronto, Ontario's capital, is home to the 553m-high CN Tower, with expansive views from its revolving restaurant, as well as High Park, site of a rare oak savannah habitat.`,
     flag: {
       image: ontarioFlag,
@@ -704,7 +726,7 @@ const provData = {
         name: "Common Loon",
         image: ontarioAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -715,11 +737,12 @@ const provData = {
     },
   },
   manitoba: {
-    population: 1200000,
+    population: '1,369,000',
     language: "English",
     capital: "Winnipeg",
     province: "Manitoba",
     status: "Province",
+    confederation: 'July 15, 1870 (5th)',
     bio: `Manitoba is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: manitobaFlag,
@@ -734,7 +757,7 @@ const provData = {
         name: "Plains Bison",
         image: manitobaAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -745,11 +768,12 @@ const provData = {
     },
   },
   sask: {
-    population: 1000000,
+    population: '1,174,000',
     language: "English",
     capital: "Regina",
     province: "Saskatchewan",
     status: "Province",
+    confederation: "September 1, 1905 (10th)",
     bio: `Saska is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: saskFlag,
@@ -765,7 +789,7 @@ const provData = {
         name: "White-Tailed Deer",
         image: saskAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -776,11 +800,12 @@ const provData = {
     },
   },
   alberta: {
-    population: 3200000,
+    population: '4,371,000',
     language: "English",
     capital: "Edmonton",
     province: "Alberta",
     status: "Province",
+    confederation: "September 1, 1905 (10th)",
     bio: `Alberta is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: albertaFlag,
@@ -795,7 +820,7 @@ const provData = {
         name: "Rocky Mountain Bighorn Sheep",
         image: albertaAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -806,11 +831,12 @@ const provData = {
     },
   },
   bc: {
-    population: 4020000,
+    population: '5,071,000',
     language: "English",
     capital: "Victoria",
     province: "British Columbia",
     status: "Province",
+    confederation: 'July 20, 1871 (6th)',
     bio: `British Columbia, Canada's westernmost province, is defined by its Pacific coastline and mountain ranges. Nature areas like Glacier National Park offer hiking and biking trails, as well as campgrounds. Whistler Blackcomb is a major ski resort that hosted the 2010 Winter Olympics. The scenic Sea-to-Sky Highway links Whistler with Vancouver, a city known for its film industry, at the province's southern U.S. border.`,
     flag: {
       image: bcFlag,
@@ -825,7 +851,7 @@ const provData = {
         name: "Spirit Bear",
         image: bcAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -836,11 +862,12 @@ const provData = {
     },
   },
   nunavut: {
-    population: 20000,
-    language: "English / Inut",
+    population: '39,736',
+    language: "Inuktitut, Inuinnaqtun, English + French",
     capital: "Iqaluit",
     province: "Nunavut",
     status: "Territory",
+    confederation: 'April 1, 1999 (13th)',
     bio: `Nunavut is a massive, sparsely populated territory of northern Canada, forming most of the Canadian Arctic Archipelago. Its islands have expanses of tundra, craggy mountains and remote villages, accessible only by plane or boat. It's known for its indigenous Inuit people's artwork, carvings and handmade clothing. Inuit art is displayed at the Nunatta Sunakkutaangit Museum in the capital, Iqaluit, on Baffin Island.`,
     flag: {
       image: nunavutFlag,
@@ -855,7 +882,7 @@ const provData = {
         name: "Canadian Inuit Dog",
         image: nunavutAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },
@@ -866,11 +893,12 @@ const provData = {
     },
   },
   quebec: {
-    population: 12000000,
+    population: '8,501,833',
     language: "French",
     capital: "Quebec City",
     province: "Quebec",
     status: "Province",
+    confederation: 'July 1, 1867 (1st)',
     bio: `Québec is a predominantly French-speaking province in eastern Canada with 2 vibrant cities in its south, connected by the Chemin du Roy highway along the Saint Lawrence River. The metropolis Montréal is named after Mt. Royal, the triple-peaked hill at its heart. Dating to 1608, Québec City retains its old colonial core, Place Royale, and historic harbor, Vieux Port, now known for nightlife. `,
     flag: {
       image: quebecFlag,
@@ -885,7 +913,7 @@ const provData = {
         name: "Snowy Owl",
         image: quebecAnimal,
       },
-      economy: {
+      park: {
         name: "",
         image: "",
       },

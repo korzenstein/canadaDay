@@ -1,0 +1,9 @@
+.langContainer {
+    display: flex;
+    position: absolute;
+    bottom: 4rem;
+    right: 5px;
+    span {
+        cursor: pointer;
+    }
+}

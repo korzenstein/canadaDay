@@ -2,12 +2,28 @@ import { useState } from "react";
 
 // import provincialData from "../data/provincialData";
 
-const Facts = ({ provChoice, provArray }) => {
+const Facts = ({ provChoice, provArray, langChoice }) => {
   const [factChoice, setFactChoice] = useState([]);
+  const radios = {
+    english: {
+      flora: "Flora",
+      fauna: "Fuana",
+      park: "National Park",
+      trivia: "Trivia",
+    },
+    french: {
+      flora: "Flore",
+      fauna: "Faune",
+      park: "Parc National",
+      trivia: "Futilités",
+    }
+  }
 
+  console.log(radios[langChoice].flora)
   const handleFacts = (e) => {
     setFactChoice(e.target.value);
     console.log(e.target.value)
+    console.log('clicker')
   };
 
   console.log(provArray)
@@ -20,7 +36,9 @@ const Facts = ({ provChoice, provArray }) => {
         value="flora"
         name="facts"
         onChange={handleFacts}/>
-        <label htmlFor="flora" >Flora</label>
+        <label 
+        className="labels"
+        htmlFor="flora" >{radios[langChoice].flora}</label>
 
          <input 
          type="radio" 
@@ -28,8 +46,10 @@ const Facts = ({ provChoice, provArray }) => {
          value="fauna"
          name="facts"
          onChange={handleFacts}/>
-        <label htmlFor="fauna" 
-        >Fauna</label>
+        <label 
+        className="labels"
+        htmlFor="fauna" 
+        >{radios[langChoice].fauna}</label>
 
          <input 
          type="radio" 
@@ -37,18 +57,21 @@ const Facts = ({ provChoice, provArray }) => {
          value="trivia"
          name="facts"
          onChange={handleFacts}/>
-        <label htmlFor="trivia" 
-        >Trivia</label>
+        <label 
+        className="labels"
+        htmlFor="trivia" 
+        >{radios[langChoice].trivia}</label>
 
          <input 
          type="radio" 
-         id="economy" 
-         value="economy"
+         id="park" 
+         value="park"
          name="facts"
          onChange={handleFacts}/>
         <label 
-        htmlFor="economy" 
-        >Economy</label>
+        className="labels"
+        htmlFor="park" 
+        >{radios[langChoice].park}</label>
       
       </div>
       <div className="factsData">

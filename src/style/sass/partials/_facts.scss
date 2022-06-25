@@ -46,11 +46,12 @@
                 bottom: -10rem;
                 right: 0;
                 width: 80%;
+                border-radius: 3.5%;
             }
             .subtitle {
                 position: absolute;
                 top: 9.3rem;
-                right: 2rem;
+                left: 2.8rem;
                 font-size: 1rem;
             }
         }
@@ -58,9 +59,18 @@
 }
 
 .buttonsContainer {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 20%;
     gap: 0.5rem;
+    
+    label {
+        text-align: left;
+        display: inline-block;
+    }
+    input:checked + .labels {
+        border-bottom: 1px solid black;
+        width: auto;
+    }
     
 }
