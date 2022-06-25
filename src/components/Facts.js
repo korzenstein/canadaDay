@@ -30,7 +30,10 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
 
   return (
     <div className="factsContainer">
-      <div className="buttonsContainer">
+      
+      <div 
+
+      className={provChoice == "default" ? "none" : "buttonsContainer flasher"}>
         <input type="radio" 
         id="flora" 
         value="flora"
@@ -86,10 +89,8 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
                   <div className="floraImageContainer">
                     <h5
                     className="subtitle flasher"
-                    // key={item}
                     >{item[1].facts[factChoice]?.name}</h5>
                     <img
-                      // key={item}
                       className="floraImage flasher"
                       src={item[1].facts[factChoice]?.image}
                       alt="flower of province"

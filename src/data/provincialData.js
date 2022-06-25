@@ -1,3 +1,4 @@
+import defaultImage from '../assets/default.jpeg'
 // Flag svg
 import albertaFlag from "../components/flags/albertaFlag.svg";
 import yukonFlag from "../components/flags/yukonFlag.png";
@@ -42,6 +43,14 @@ import novaAnimal from "../assets/novaAnimal.png"
 import nwtAnimal from "../assets/nwtAnimal.png"
 // national parks
 import novaPark from "../assets/novaPark.jpg"
+import peiPark from "../assets/peiPark.jpg"
+import nfldPark from "../assets/nfldPark.jpg"
+import nwtPark from "../assets/nwtPark.jpg"
+import nunavutPark from '../assets/nunavutPark.jpg'
+import ontarioPark from '../assets/ontarioPark.jpg'
+import manitobaPark from '../assets/manitobaPark.jpg'
+import quebecPark from '../assets/quebecPark.jpg'
+import albertaPark from '../assets/albertaPark.jpg'
 
 
 
@@ -61,19 +70,19 @@ const provData = {
     facts: {
       flora: {
         name: "",
-        image: "",
+        image: defaultImage,
       },
       fauna: {
         name: "",
-        image: "",
+        image: defaultImage,
       },
       park: {
         name: "",
-        image: "",
+        image: defaultImage,
       },
       trivia: {
         name: "",
-        image: "",
+        image: defaultImage,
       },
     },
   },
@@ -99,8 +108,8 @@ const provData = {
         image: nfldAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national du Gros-Morne",
+        image: nfldPark,
       },
       trivia: {
         name: "",
@@ -130,8 +139,8 @@ const provData = {
         image: peiAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national de l'Île-du-Prince-Édouard",
+        image: peiPark,
       },
       trivia: {
         name: "",
@@ -192,7 +201,7 @@ const provData = {
         image: novaAnimal,
       },
       park: {
-        name: "Cape Breton Highlands NP",
+        name: "Parc national des Hautes-Terres-du-Cap-Breton",
         image: novaPark,
       },
       trivia: {
@@ -256,8 +265,8 @@ const provData = {
         image: nwtAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Réserve de parc national Nahanni",
+        image: nwtPark,
       },
       trivia: {
         name: "",
@@ -287,8 +296,8 @@ const provData = {
         image: ontarioAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc marin national Fathom Five",
+        image: ontarioPark,
       },
       trivia: {
         name: "",
@@ -318,8 +327,8 @@ const provData = {
         image: manitobaAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national du Mont-Riding",
+        image: manitobaPark,
       },
       trivia: {
         name: "",
@@ -381,8 +390,8 @@ const provData = {
         image: albertaAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national Banff",
+        image: albertaPark,
       },
       trivia: {
         name: "",
@@ -443,8 +452,8 @@ const provData = {
         image: nunavutAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national Auyuittuq",
+        image: nunavutPark,
       },
       trivia: {
         name: "",
@@ -474,8 +483,8 @@ const provData = {
         image: quebecAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national Forillon",
+        image: quebecPark,
       },
       trivia: {
         name: "",
@@ -539,8 +548,8 @@ const provData = {
         image: nfldAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Gros Morne National Park",
+        image: nfldPark,
       },
       trivia: {
         name: "",
@@ -570,8 +579,8 @@ const provData = {
         image: peiAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Prince Edward Island National Park",
+        image: peiPark,
       },
       trivia: {
         name: "",
@@ -632,7 +641,7 @@ const provData = {
         image: novaAnimal,
       },
       park: {
-        name: "Parc national des Hautes-Terres-du-Cap-Breton",
+        name: "Cape Breton Highlands National Park",
         image: novaPark,
       },
       trivia: {
@@ -696,8 +705,8 @@ const provData = {
         image: nwtAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Nahanni National Park Reserve",
+        image: nwtPark,
       },
       trivia: {
         name: "",
@@ -727,8 +736,8 @@ const provData = {
         image: ontarioAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Fathom Five National Marine Park",
+        image: ontarioPark,
       },
       trivia: {
         name: "",
@@ -758,8 +767,8 @@ const provData = {
         image: manitobaAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Riding Mountain National Park",
+        image: manitobaPark,
       },
       trivia: {
         name: "",
@@ -821,8 +830,8 @@ const provData = {
         image: albertaAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Banff National Park",
+        image: albertaPark,
       },
       trivia: {
         name: "",
@@ -883,8 +892,8 @@ const provData = {
         image: nunavutAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Auyuittuq National Park",
+        image: nunavutPark,
       },
       trivia: {
         name: "",
@@ -914,8 +923,8 @@ const provData = {
         image: quebecAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Forillon National Park",
+        image: quebecPark,
       },
       trivia: {
         name: "",
