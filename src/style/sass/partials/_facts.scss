@@ -1,10 +1,12 @@
 .factsContainer {
-    width: 370px;
+    // width: 370px;
+    width: 25vw;
+    min-width: 250px;
     height: 280px;
-    // background-color: rgb(236, 236, 236);
     border-radius: 5px;
     display: flex;
     position: absolute;
+    gap: 2rem;
     bottom: 0;
     left: 0;
     .buttonsContainer {
@@ -41,12 +43,14 @@
             // background-color:green;
             // height: 100%;
             width: 100%;
+            pointer-events: none;
             .floraImage {
                 position: absolute;
                 bottom: -10rem;
                 right: -40px;
                 width: 100%;
                 border-radius: 3.5%;
+                pointer-events: none;
             }
             .subtitle {
                 position: absolute;

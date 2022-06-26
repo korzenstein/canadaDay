@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+  .flagsContainer {
+    top: 17%;
+  }
+  .canadaMap {
+    min-width: 650px;
+    position: absolute;
+    // transform: translateX(-25%);
+  }
+}
+
+@media (max-width: 640px) {
+  .titleContainer {
+    h1 {
+      font-size: 2.6rem;
+    }
+    .title {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .canadaMap {
+    transform: translateX(-30%);
+  }
+  .subInfo {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  // body {
+  //         height: 120vh;
+  //         overflow-y: scroll;
+  //     }
+
+  // .subInfo {
+  //     display: none;
+  // }
+  .flagsContainer {
+      top: 27%;
+  }
+}
+
+@media (max-width: 440px) {
+    .canadaMap {
+            min-width: 530px;
+            // transform: translateX(-25%);
+        }
+    .factsContainer{
+        gap: 0.2rem;
+    }
+}
+
+

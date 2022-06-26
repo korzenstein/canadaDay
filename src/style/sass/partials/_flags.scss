@@ -4,18 +4,18 @@
   right: 0%;
 
   .flagImageContainer {
-    width: 300px;
+    width: 25vw;
+    min-width: 20vw;
     transition: 0.4s all ease-in-out;
-    // &:hover {
-    //     width: 320px;
-    // }
+    min-width: 150px;
+
     .flag {
       width: 100%;
       border-radius: 3px;
       transition: .2s all ease-in-out;
       &:hover {
-        cursor: pointer;
-        scale: 1.01;
+        // cursor: pointer;
+        // scale: 1.01;
       }
     }
   }

@@ -93,7 +93,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
                     <img
                       className="floraImage flasher"
                       src={item[1].facts[factChoice]?.image}
-                      alt="flower of province"
+                      alt={item[1].facts[factChoice]?.name}
                     />
         
                   </div>
