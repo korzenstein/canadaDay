@@ -7,7 +7,6 @@ import provincialData from "./data/provincialData";
 import Flags from "./components/Flags"
 import Facts from './components/Facts'
 import CanadaMap from "./components/CanadaMap";
-import DataVis from "./components/DataVis";
 import Title from "./components/Title";
 import Languages from "./components/Languages";
 

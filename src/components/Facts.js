@@ -54,7 +54,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
         htmlFor="fauna" 
         >{radios[langChoice].fauna}</label>
 
-         <input 
+         {/* <input 
          type="radio" 
          id="trivia" 
          value="trivia"
@@ -63,7 +63,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
         <label 
         className="labels"
         htmlFor="trivia" 
-        >{radios[langChoice].trivia}</label>
+        >{radios[langChoice].trivia}</label> */}
 
          <input 
          type="radio" 

@@ -1,56 +1,60 @@
 import defaultImage from '../assets/default.jpeg'
 // Flag svg
-import albertaFlag from "../components/flags/albertaFlag.svg";
-import yukonFlag from "../components/flags/yukonFlag.png";
-import saskFlag from "../components/flags/saskFlag.png";
-import bcFlag from "../components/flags/bcFlag.svg";
-import manitobaFlag from "../components/flags/manitobaFlag.svg";
-import ontarioFlag from "../components/flags/ontarioFlag.svg";
-import quebecFlag from "../components/flags/quebecFlag.png";
-import nbFlag from "../components/flags/nbFlag.svg";
-import novaFlag from "../components/flags/novaFlag.svg";
-import nfldFlag from "../components/flags/nfldFlag.svg";
-import peiFlag from "../components/flags/peiFlag.svg";
-import nwtFlag from "../components/flags/nwtFlag.svg";
-import nunavutFlag from "../components/flags/nunavutFlag.png";
+import albertaFlag from "../assets/flags/albertaFlag.svg";
+import yukonFlag from "../assets/flags/yukonFlag.png";
+import saskFlag from "../assets/flags/saskFlag.png";
+import bcFlag from "../assets/flags/bcFlag.svg";
+import manitobaFlag from "../assets/flags/manitobaFlag.svg";
+import ontarioFlag from "../assets/flags/ontarioFlag.svg";
+import quebecFlag from "../assets/flags/quebecFlag.png";
+import nbFlag from "../assets/flags/nbFlag.svg";
+import novaFlag from "../assets/flags/novaFlag.svg";
+import nfldFlag from "../assets/flags/nfldFlag.svg";
+import peiFlag from "../assets/flags/peiFlag.svg";
+import nwtFlag from "../assets/flags/nwtFlag.svg";
+import nunavutFlag from "../assets/flags/nunavutFlag.png";
 // Flower svg
-import albertaFlower from "../assets/albertaFlower.svg";
-import saskFlower from "../assets/saskFlower.svg";
-import nfldFlower from "../assets/nfldFlower.svg";
-import nunavutFlower from "../assets/nunavutFlower.svg";
-import peiFlower from "../assets/peiFlower.svg";
-import yukonFlower from "../assets/yukonFlower.svg";
-import novaFlower from "../assets/novaFlower.svg";
-import nwtFlower from "../assets/nwtFlower.svg";
-import nbFlower from "../assets/nbFlower.svg";
-import ontarioFlower from "../assets/ontarioFlower.svg";
-import manitobaFlower from "../assets/manitobaFlower.svg";
-import bcFlower from "../assets/bcFlower.svg";
-import quebecFlower from "../assets/quebecFlower.svg";
+import albertaFlower from "../assets/flora/albertaFlower.svg";
+import saskFlower from "../assets/flora/saskFlower.svg";
+import nfldFlower from "../assets/flora/nfldFlower.svg";
+import nunavutFlower from "../assets/flora/nunavutFlower.svg";
+import peiFlower from "../assets/flora/peiFlower.svg";
+import yukonFlower from "../assets/flora/yukonFlower.svg";
+import novaFlower from "../assets/flora/novaFlower.svg";
+import nwtFlower from "../assets/flora/nwtFlower.svg";
+import nbFlower from "../assets/flora/nbFlower.svg";
+import ontarioFlower from "../assets/flora/ontarioFlower.svg";
+import manitobaFlower from "../assets/flora/manitobaFlower.svg";
+import bcFlower from "../assets/flora/bcFlower.svg";
+import quebecFlower from "../assets/flora/quebecFlower.svg";
 // animals
-import saskAnimal from "../assets/saskAnimal.png"
-import nbAnimal from "../assets/nbAnimal.png"
-import bcAnimal from "../assets/bcAnimal.png"
-import quebecAnimal from "../assets/quebecAnimal.png"
-import nfldAnimal from "../assets/nfldAnimal.png"
-import peiAnimal from "../assets/peiAnimal.png"
-import yukonAnimal from "../assets/yukonAnimal.png"
-import manitobaAnimal from "../assets/manitobaAnimal.png"
-import albertaAnimal from "../assets/albertaAnimal.png"
-import ontarioAnimal from "../assets/ontarioAnimal.png"
-import nunavutAnimal from "../assets/nunavutAnimal.png"
-import novaAnimal from "../assets/novaAnimal.png"
-import nwtAnimal from "../assets/nwtAnimal.png"
+import saskAnimal from "../assets/fauna/saskAnimal.png"
+import nbAnimal from "../assets/fauna/nbAnimal.png"
+import bcAnimal from "../assets/fauna/bcAnimal.png"
+import quebecAnimal from "../assets/fauna/quebecAnimal.png"
+import nfldAnimal from "../assets/fauna/nfldAnimal.png"
+import peiAnimal from "../assets/fauna/peiAnimal.png"
+import yukonAnimal from "../assets/fauna/yukonAnimal.png"
+import manitobaAnimal from "../assets/fauna/manitobaAnimal.png"
+import albertaAnimal from "../assets/fauna/albertaAnimal.png"
+import ontarioAnimal from "../assets/fauna/ontarioAnimal.png"
+import nunavutAnimal from "../assets/fauna/nunavutAnimal.png"
+import novaAnimal from "../assets/fauna/novaAnimal.png"
+import nwtAnimal from "../assets/fauna/nwtAnimal.png"
 // national parks
-import novaPark from "../assets/novaPark.jpg"
-import peiPark from "../assets/peiPark.jpg"
-import nfldPark from "../assets/nfldPark.jpg"
-import nwtPark from "../assets/nwtPark.jpg"
-import nunavutPark from '../assets/nunavutPark.jpg'
-import ontarioPark from '../assets/ontarioPark.jpg'
-import manitobaPark from '../assets/manitobaPark.jpg'
-import quebecPark from '../assets/quebecPark.jpg'
-import albertaPark from '../assets/albertaPark.jpg'
+import novaPark from "../assets/parks/novaPark.jpg"
+import peiPark from "../assets/parks/peiPark.jpg"
+import nfldPark from "../assets/parks/nfldPark.jpg"
+import nwtPark from "../assets/parks/nwtPark.jpg"
+import nunavutPark from '../assets/parks/nunavutPark.jpg'
+import ontarioPark from '../assets/parks/ontarioPark.jpg'
+import manitobaPark from '../assets/parks/manitobaPark.jpg'
+import quebecPark from '../assets/parks/quebecPark.jpg'
+import albertaPark from '../assets/parks/albertaPark.jpg'
+import saskPark from '../assets/parks/saskPark.jpg'
+import nbPark from '../assets/parks/nbPark.jpg'
+import yukonPark from '../assets/parks/yukonPark.jpg'
+import bcPark from '../assets/parks/bcPark.jpg'
 
 
 
@@ -170,8 +174,8 @@ const provData = {
         image: yukonAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national et réserve de parc national Kluane",
+        image: yukonPark,
       },
       trivia: {
         name: "",
@@ -233,8 +237,8 @@ const provData = {
         image: nbAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: nbPark,
+        image: "Parc national Fundy",
       },
       trivia: {
         name: "",
@@ -359,8 +363,8 @@ const provData = {
         image: saskAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national des Prairies",
+        image: saskPark,
       },
       trivia: {
         name: "",
@@ -421,8 +425,8 @@ const provData = {
         image: bcAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Parc national Yoho",
+        image: bcPark,
       },
       trivia: {
         name: "",
@@ -610,8 +614,8 @@ const provData = {
         image: yukonAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Kluane National Park and Reserve",
+        image: yukonPark,
       },
       trivia: {
         name: "",
@@ -673,8 +677,8 @@ const provData = {
         image: nbAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Fundy National Park",
+        image: nbPark,
       },
       trivia: {
         name: "",
@@ -799,8 +803,8 @@ const provData = {
         image: saskAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Grasslands National Park",
+        image: saskPark,
       },
       trivia: {
         name: "",
@@ -861,8 +865,8 @@ const provData = {
         image: bcAnimal,
       },
       park: {
-        name: "",
-        image: "",
+        name: "Yoho National Park",
+        image: bcPark,
       },
       trivia: {
         name: "",
