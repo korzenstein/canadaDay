@@ -237,8 +237,8 @@ const provData = {
         image: nbAnimal,
       },
       park: {
-        name: nbPark,
-        image: "Parc national Fundy",
+        name: "Parc national Fundy",
+        image: nbPark,
       },
       trivia: {
         name: "",

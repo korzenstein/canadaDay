@@ -77,7 +77,7 @@ const App = () => {
       languageHandler={languageHandler} 
       />
       <footer className="footer" >
-              <p >Stephen Korzenstein 2022</p>
+              <p>designed + developed by Stephen Korzenstein 2022</p>
       </footer>
       </div>
     </main>
