@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-const Flags = ({provChoice, provArray, flagHandler, flagToggle}) => {
+const Flags = ({provChoice, provData, flagHandler, flagToggle}) => {
     
     return (
         <div className="flagsContainer">
-        {provArray.map(item => {
+        {provData.map(item => {
             return (
                 <div>
                 {item[0] === provChoice ? 
@@ -16,7 +16,7 @@ const Flags = ({provChoice, provArray, flagHandler, flagToggle}) => {
                 // key={item}
                 className="flag"
                 onClick={() => {flagHandler()}}
-                src={item[1].flag.image} alt={`flag of ${provChoice}`} />
+                src={item[1].flag.imageUrl} alt={`flag of ${provChoice}`} />
                 </div> : null}
 
                 {/* {

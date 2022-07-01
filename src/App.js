@@ -1,6 +1,9 @@
 import "./style/sass/App.scss";
 import { useState, useEffect } from "react";
-import provincialData from "./data/provincialData";
+import axios from 'axios';
+
+// import provincialData from "./data/provincialData";
+
 
 
 // components
@@ -12,30 +15,48 @@ import Languages from "./components/Languages";
 
 
 const App = () => {
+  const [langChoice, setLangChoice] = useState("english")
+  useEffect(() => {
+  const configLocale = {
+      method: "get",
+      url: `https://api.jsonbin.io/b/62bcf53f402a5b38024246df`,
+      headers: {
+      'X-Master-Key': '$2b$10$dBNW6g9lshV2AEVlShSKzeSQ2ykDhBbIlfHAE.pnNq2PHIMe.zPRa',
+    },
+    };
+
+    axios(configLocale)
+      .then(function (response) {
+        const results = response.data;
+        const newDataArray = Object.entries(results[langChoice])
+        setProvData(newDataArray)
+      })
+
+      .catch(function (error) {
+        console.log(error);
+      });
+
+}, [langChoice])
 
   const [provChoice, setProvChoice] = useState(["default"]);
   const [flagToggle, setFlagToggle ] = useState(false)
-  const [langChoice, setLangChoice] = useState("english")
-  const newProvArray = Object.entries(provincialData[langChoice])
-  const [provArray, setProvArray] = useState(newProvArray)
+  
+  // const newProvArray = Object.entries(provincialData[langChoice])
+  // const [provArray, setProvArray] = useState(newProvArray)
+  const [provData, setProvData] = useState([])
 
-  useEffect(() => {
-    const updatedLanguage = Object.entries(provincialData[langChoice])
-    setProvArray(updatedLanguage)
-
-
-
-  }, [langChoice])
+  // useEffect(() => {
+  //   const newDataArray = Object.entries(results[langChoice])
+  //   setProvData(newDataArray)
+  // }, [langChoice])
 
 
    const handleChoice = (province) => {
     setProvChoice(province);
     setFlagToggle(false)
-    console.log(provChoice);
   };
 
     const flagHandler = () => {
-        console.log(provChoice)
         setFlagToggle(!flagToggle)
     }
 
@@ -48,8 +69,9 @@ const App = () => {
       <div className="wrapper">
       <Title
       provChoice={provChoice}
-      provArray={provArray}
+      // provArray={provArray}
       langChoice={langChoice}
+      provData={provData}
       />
       <CanadaMap 
       handleChoice={handleChoice}
@@ -61,7 +83,8 @@ const App = () => {
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
-      provArray={provArray}
+      // provArray={provArray}
+      provData={provData}
       flagHandler={flagHandler}
       flagToggle={flagToggle}
       langChoice={langChoice}
@@ -70,8 +93,9 @@ const App = () => {
       handleChoice={handleChoice}
       provChoice={provChoice}
       setProvChoice={setProvChoice}
-      provArray={provArray}
+      // provArray={provArray}
       langChoice={langChoice}
+      provData={provData}
       />
       <Languages
       languageHandler={languageHandler} 

@@ -70,19 +70,23 @@ const provData = {
     flag: {
       image: "",
       info: "",
+      imageUrl: ""
     },
     facts: {
       flora: {
         name: "",
         image: defaultImage,
+        imageUrl: ""
       },
       fauna: {
         name: "",
         image: defaultImage,
+        imageUrl: ""
       },
       park: {
         name: "",
         image: defaultImage,
+        imageUrl: ""
       },
       trivia: {
         name: "",
@@ -101,19 +105,23 @@ const provData = {
     flag: {
       image: nfldFlag,
       info: "French explaination of flag",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nfldFlag.svg"
     },
     facts: {
       flora: {
         name: "Sarracénie",
         image: nfldFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/nfldFlower.svg"
       },
       fauna: {
         name: "Macareux moine",
         image: nfldAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nfldAnimal.png"
       },
       park: {
         name: "Parc national du Gros-Morne",
         image: nfldPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/parks/nfldPark.jpg"
       },
       trivia: {
         name: "",
@@ -132,19 +140,23 @@ const provData = {
     flag: {
       image: peiFlag,
       info: "The English heraldic lion is also used on the Coat of Arms of Prince Edward, Duke of Kent, and of King Edward VII. The large oak tree on the right was originally intended to represent England, while the three saplings stand for the three counties into which the province has been divided since 1767.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/peiFlag.svg"
     },
     facts: {
       flora: {
         name: "Pantoufle de Dame",
         image: peiFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/peiFlower.svg"
       },
       fauna: {
         name: "Renard Rouge",
         image: peiAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/peiAnimal.png"
       },
       park: {
         name: "Parc national de l'Île-du-Prince-Édouard",
         image: peiPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/peiPark.jpg"
       },
       trivia: {
         name: "",
@@ -163,19 +175,23 @@ const provData = {
     flag: {
       image: yukonFlag,
       info: "The Yukon coat of arms appears on the central panel framed by 2 stems of fireweed. The green symbolizes the forests, white signifies snow and the blue represents Yukon's rivers and lakes.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/yukonFlag.svg"
     },
     facts: {
       flora: {
         name: "Épilobe",
         image: yukonFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/yukonFlower.svg"
       },
       fauna: {
         name: "Grand Corbeau",
         image: yukonAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/yukonAnimal.png"
       },
       park: {
         name: "Parc national et réserve de parc national Kluane",
         image: yukonPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/yukonPark.jpg"
       },
       trivia: {
         name: "",
@@ -194,19 +210,23 @@ const provData = {
     flag: {
       image: novaFlag,
       info: "The flag of Nova Scotia was the first flag flown in the overseas Commonwealth to be authorized by a Royal Charter. It is in essence a representation of St. Andrew's Cross in reversed colors, with the Scotish Royal Arms centered.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/novaFlag.svg"
     },
     facts: {
       flora: {
         name: "Fleur de Mai",
         image: novaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/novaFlower.svg"
       },
       fauna: {
         name: "Cheval de l'île de Sable",
         image: novaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/novaAnimal.png"
       },
       park: {
         name: "Parc national des Hautes-Terres-du-Cap-Breton",
         image: novaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/novaPark.jpg"
       },
       trivia: {
         name: "",
@@ -225,20 +245,24 @@ const provData = {
     flag: {
       image: nbFlag,
       info: "The yellow field is dominated by a galley ship representing local shipbuilding. It sails on wavy blue and white lines, and display a white sail and three red flags. The golden lion is representative of new Brunswick's ties to Britain.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nbFlag.svg"
     },
     
     facts: {
       flora: {
         name: "Mésange à tête noire",
         image: nbFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nbFlower.svg"
       },
       fauna: {
         name: "Mésange à Tête Noire",
         image: nbAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nbAnimal.png"
       },
       park: {
         name: "Parc national Fundy",
         image: nbPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nbPark.jpg"
       },
       trivia: {
         name: "",
@@ -257,20 +281,24 @@ const provData = {
     flag: {
       image: nwtFlag,
       info: "The flag's blue is said to be symbolic of the many lakes and rivers in the territory, and white represents the ice and snow. The shield uses green for forests, red for the tundra and white for the Arctic Circle ice cap. The wavy blue line represents the Northwest Passage. Gold blocks represent gold deposits in the territory, and the fox face is symbolic of fur as a natural resource.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nwtFlag.svg"
     },
  
     facts: {
       flora: {
         name: "Benoîte de Montagne",
         image: nwtFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nwtFlower.svg"
       },
       fauna: {
         name: "Gyrfalcon",
         image: nwtAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nwtAnimal.png"
       },
       park: {
         name: "Réserve de parc national Nahanni",
         image: nwtPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nwtPark.jpg"
       },
       trivia: {
         name: "",
@@ -289,19 +317,23 @@ const provData = {
     flag: {
       image: ontarioFlag,
       info: "The flag of Ontario is a defaced Red Ensign. The flag is an adaptation of the Canadian Red Ensign, which had been the de facto national flag of Canada from 1867 to 1965. The flag is a red field with the Royal Union Flag in the canton and the Ontario shield of arms in the fly.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/ontarioFlag.svg"
     },
     facts: {
       flora: {
         name: "Trille Blanc",
         image: ontarioFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/ontarioFlower.svg"
       },
       fauna: {
         name: "Plongeon Huard",
         image: ontarioAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/ontarioAnimal.png"
       },
       park: {
         name: "Parc marin national Fathom Five",
         image: ontarioPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/ontarioPark.jpg"
       },
       trivia: {
         name: "",
@@ -320,19 +352,23 @@ const provData = {
     flag: {
       image: manitobaFlag,
       info: "Its visual purpose is to recall and to preserve the Canadian Red Ensign, one featuring a bright red field and the Union Jack. The Manitoba Shield, centered right, shows a buffalo standing on a rock beneath the red cross of St. George.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/manitobaFlag.svg"
     },
     facts: {
       flora: {
         name: "Crocus des Prairies",
         image: manitobaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/manitobaFlower.svg"
       },
       fauna: {
         name: "Bison des plaines",
         image: manitobaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/manitobaAnimal.png"
       },
       park: {
         name: "Parc national du Mont-Riding",
         image: manitobaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/manitobaPark.jpg"
       },
       trivia: {
         name: "",
@@ -351,20 +387,24 @@ const provData = {
     flag: {
       image: saskFlag,
       info: "The flag is divided horizontally into two equal parts – one green, one gold. The green represents the northern forests of the province and the gold symbolizes the southern grain fields.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/saskFlag.svg"
     },
     
     facts: {
       flora: {
         name: "Lys rouge occidental",
         image: saskFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/saskFlower.svg"
       },
       fauna: {
         name: "Cerf de Virginie",
         image: saskAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/saskAnimal.png"
       },
       park: {
         name: "Parc national des Prairies",
         image: saskPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/saskPark.jpg"
       },
       trivia: {
         name: "",
@@ -378,24 +418,28 @@ const provData = {
     capital: "Edmonton",
     province: "Alberta",
     status: "Province",
-    confederation: '	1er Septembre 1905 (10e)',
+    confederation: '1er Septembre 1905 (10e)',
     bio: `Alberta is a Canadian province bordered by Ontario to the east and Saskatchewan to the west. Its landscape of lakes and rivers, mountains, forests and prairies stretches from northern Arctic tundra to Hudson Bay in the east and southern farmland. Much wilderness is protected in more than 80 provincial parks, where hiking, biking, canoeing, camping and fishing are all popular.`,
     flag: {
       image: albertaFlag,
       info: "Canadian provincial flag consisting of a blue field (background) with the provincial coat of arms in the centre. The crest includes (from bottom to top) the typical wheat fields of the province, rough prairie land, foothills, and finally the Rocky Mountains under a blue sky. At the very top of the shield is the red Cross of St. George, recalling the English settlement of the region.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/albertaFlag.svg"
     },
     facts: {
       flora: {
         name: "Rose Sauvage",
         image: albertaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/albertaFlower.svg"
       },
       fauna: {
         name: "Mouflon des Montagnes Rocheuses",
         image: albertaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/albertaAnimal.png"
       },
       park: {
         name: "Parc national Banff",
         image: albertaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/albertaPark.jpg"
       },
       trivia: {
         name: "",
@@ -414,19 +458,23 @@ const provData = {
     flag: {
       image: bcFlag,
       info: "The top of the flag depicts the Royal Union Flag, reflecting B.C.’s British heritage, with the King Edward crown in the centre representing the Royal Family. Below is a setting sun, representing B.C.’s position as Canada’s westernmost province. The wavy white and blue lines symbolize B.C.’s location between the Pacific Ocean and the Rocky Mountains.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/bcFlag.svg"
     },
     facts: {
       flora: {
         name: "Cornouiller du Pacifique",
         image: bcFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/bcFlower.svg"
       },
       fauna: {
         name: "Ours Kermode",
         image: bcAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/bcAnimal.png"
       },
       park: {
         name: "Parc national Yoho",
         image: bcPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/bcPark.jpg"
       },
       trivia: {
         name: "",
@@ -445,19 +493,23 @@ const provData = {
     flag: {
       image: nunavutFlag,
       info: "The colours, blue and gold, symbolize the riches of the land, sea and sky. Red is a reference to Canada. The inuksuk - centered - symbolizes stone monuments which guide people on the land, and also marks sacred and other special places. The star is the Niqirtsuituq - North Star - and the traditional guide for navigation and symbolic of the leadership of the elders in the community.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nunavutFlag.svg"
     },
     facts: {
       flora: {
         name: "Saxifrage Pourpre",
         image: nunavutFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nunavutFlower.svg"
       },
       fauna: {
         name: "Chien Inuit Canadien",
         image: nunavutAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nunavutAnimal.png"
       },
       park: {
         name: "Parc national Auyuittuq",
         image: nunavutPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nunavutPark.jpg"
       },
       trivia: {
         name: "",
@@ -476,19 +528,23 @@ const provData = {
     flag: {
       image: quebecFlag,
       info: "The flag of Quebec is often called the “Fleurdelisé”. The white cross on a blue field recalls an ancient French military banner, and the four fleurs-de-lis are symbolic of France. Legend has it that the use of the fleur-de-lis as an emblem of French royalty dates back to the year 496 when Clovis, the first Christian king of France, was baptized by Saint Remigius and is said to have adopted the flower as his personal emblem.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/quqbecFlag.svg"
     },
     facts: {
       flora: {
         name: "Iris Versicolore",
         image: quebecFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/quqbecFlower.svg"
       },
       fauna: {
         name: "Harfang des Neiges",
         image: quebecAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/quebecAnimal.png"
       },
       park: {
         name: "Parc national Forillon",
         image: quebecPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/quebecPark.jpg"
       },
       trivia: {
         name: "",
@@ -510,19 +566,24 @@ const provData = {
     flag: {
       image: "",
       info: "",
+      imageUrl: ""
+
     },
     facts: {
       flora: {
         name: "",
         image: "",
+        imageUrl: ""
       },
       fauna: {
         name: "",
         image: "",
+        imageUrl: ""
       },
       park: {
         name: "",
         image: "",
+        imageUrl: ""
       },
       trivia: {
         name: "",
@@ -541,19 +602,23 @@ const provData = {
     flag: {
       image: nfldFlag,
       info: "The blue represents the waters of the sea, lakes and rivers; the white represents snow and ice; the red represents human effort, and the yellow gold symbolizes the confidence the people of Newfoundland and Labrador have in themselves and for the future.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nfldFlag.svg"
     },
     facts: {
       flora: {
         name: "Pitcher Plant",
         image: nfldFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/nfldFlower.svg"
       },
       fauna: {
         name: "Atlantic Puffin",
         image: nfldAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nfldAnimal.png"
       },
       park: {
         name: "Gros Morne National Park",
         image: nfldPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/parks/nfldPark.jpg"
       },
       trivia: {
         name: "",
@@ -572,19 +637,23 @@ const provData = {
     flag: {
       image: peiFlag,
       info: "The English heraldic lion is also used on the Coat of Arms of Prince Edward, Duke of Kent, and of King Edward VII. The large oak tree on the right was originally intended to represent England, while the three saplings stand for the three counties into which the province has been divided since 1767.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/peiFlag.svg"
     },
     facts: {
       flora: {
         name: "Lady's Slipper",
         image: peiFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/peiFlower.svg"
       },
       fauna: {
         name: "Red Fox",
         image: peiAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/peiAnimal.png"
       },
       park: {
         name: "Prince Edward Island National Park",
         image: peiPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/peiPark.jpg"
       },
       trivia: {
         name: "",
@@ -603,19 +672,23 @@ const provData = {
     flag: {
       image: yukonFlag,
       info: "The Yukon coat of arms appears on the central panel framed by 2 stems of fireweed. The green symbolizes the forests, white signifies snow and the blue represents Yukon's rivers and lakes.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/yukonFlag.svg"
     },
     facts: {
       flora: {
         name: "Fireweed",
         image: yukonFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/yukonFlower.svg"
       },
       fauna: {
         name: "Common Raven",
         image: yukonAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/yukonAnimal.png"
       },
       park: {
         name: "Kluane National Park and Reserve",
         image: yukonPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/yukonPark.jpg"
       },
       trivia: {
         name: "",
@@ -634,19 +707,23 @@ const provData = {
     flag: {
       image: novaFlag,
       info: "The flag of Nova Scotia was the first flag flown in the overseas Commonwealth to be authorized by a Royal Charter. It is in essence a representation of St. Andrew's Cross in reversed colors, with the Scotish Royal Arms centered.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/novaFlag.svg"
     },
     facts: {
       flora: {
         name: "Mayflower",
         image: novaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/novaFlower.svg"
       },
       fauna: {
         name: "Sable Island Horse",
         image: novaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/novaAnimal.png"
       },
       park: {
         name: "Cape Breton Highlands National Park",
         image: novaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/novaPark.jpg"
       },
       trivia: {
         name: "",
@@ -665,20 +742,25 @@ const provData = {
     flag: {
       image: nbFlag,
       info: "The yellow field is dominated by a galley ship representing local shipbuilding. It sails on wavy blue and white lines, and display a white sail and three red flags. The golden lion is representative of new Brunswick's ties to Britain.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nbFlag.svg"
+
     },
     
     facts: {
       flora: {
         name: "Purple Violet",
         image: nbFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nbFlower.svg"
       },
       fauna: {
         name: "Black-Capped Chickadee",
         image: nbAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nbAnimal.png"
       },
       park: {
         name: "Fundy National Park",
         image: nbPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nbPark.jpg"
       },
       trivia: {
         name: "",
@@ -697,20 +779,24 @@ const provData = {
     flag: {
       image: nwtFlag,
       info: "The flag's blue is said to be symbolic of the many lakes and rivers in the territory, and white represents the ice and snow. The shield uses green for forests, red for the tundra and white for the Arctic Circle ice cap. The wavy blue line represents the Northwest Passage. Gold blocks represent gold deposits in the territory, and the fox face is symbolic of fur as a natural resource.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nwtFlag.svg"
     },
  
     facts: {
       flora: {
         name: "Mountain Avens",
         image: nwtFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nwtFlower.svg"
       },
       fauna: {
         name: "Gyrfalcon",
         image: nwtAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nwtAnimal.png"
       },
       park: {
         name: "Nahanni National Park Reserve",
         image: nwtPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nwtPark.jpg"
       },
       trivia: {
         name: "",
@@ -729,19 +815,23 @@ const provData = {
     flag: {
       image: ontarioFlag,
       info: "The flag of Ontario is a defaced Red Ensign. The flag is an adaptation of the Canadian Red Ensign, which had been the de facto national flag of Canada from 1867 to 1965. The flag is a red field with the Royal Union Flag in the canton and the Ontario shield of arms in the fly.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/ontarioFlag.svg"
     },
     facts: {
       flora: {
         name: "White Trillium",
         image: ontarioFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/ontarioFlower.svg"
       },
       fauna: {
         name: "Common Loon",
         image: ontarioAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/ontarioAnimal.png"
       },
       park: {
         name: "Fathom Five National Marine Park",
         image: ontarioPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/ontarioPark.jpg"
       },
       trivia: {
         name: "",
@@ -760,19 +850,23 @@ const provData = {
     flag: {
       image: manitobaFlag,
       info: "Its visual purpose is to recall and to preserve the Canadian Red Ensign, one featuring a bright red field and the Union Jack. The Manitoba Shield, centered right, shows a buffalo standing on a rock beneath the red cross of St. George.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/manitobaFlag.svg"
     },
     facts: {
       flora: {
         name: "Prairie Crocus",
         image: manitobaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/manitobaFlower.svg"
       },
       fauna: {
         name: "Plains Bison",
         image: manitobaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/manitobaAnimal.png"
       },
       park: {
         name: "Riding Mountain National Park",
         image: manitobaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/manitobaPark.jpg"
       },
       trivia: {
         name: "",
@@ -791,20 +885,24 @@ const provData = {
     flag: {
       image: saskFlag,
       info: "The flag is divided horizontally into two equal parts – one green, one gold. The green represents the northern forests of the province and the gold symbolizes the southern grain fields.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/saskFlag.svg"
     },
     
     facts: {
       flora: {
         name: "Western Red Lily",
         image: saskFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/saskFlower.svg"
       },
       fauna: {
         name: "White-Tailed Deer",
         image: saskAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/saskAnimal.png"
       },
       park: {
         name: "Grasslands National Park",
         image: saskPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/saskPark.jpg"
       },
       trivia: {
         name: "",
@@ -823,19 +921,23 @@ const provData = {
     flag: {
       image: albertaFlag,
       info: "Canadian provincial flag consisting of a blue field (background) with the provincial coat of arms in the centre. The crest includes (from bottom to top) the typical wheat fields of the province, rough prairie land, foothills, and finally the Rocky Mountains under a blue sky. At the very top of the shield is the red Cross of St. George, recalling the English settlement of the region.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/albertaFlag.svg"
     },
     facts: {
       flora: {
         name: "Wild Rose",
         image: albertaFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/albertaFlower.svg"
       },
       fauna: {
         name: "Rocky Mountain Bighorn Sheep",
         image: albertaAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/albertaAnimal.png"
       },
       park: {
         name: "Banff National Park",
         image: albertaPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/albertaPark.jpg"
       },
       trivia: {
         name: "",
@@ -854,19 +956,23 @@ const provData = {
     flag: {
       image: bcFlag,
       info: "The top of the flag depicts the Royal Union Flag, reflecting B.C.’s British heritage, with the King Edward crown in the centre representing the Royal Family. Below is a setting sun, representing B.C.’s position as Canada’s westernmost province. The wavy white and blue lines symbolize B.C.’s location between the Pacific Ocean and the Rocky Mountains.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/bcFlag.svg"
     },
     facts: {
       flora: {
         name: "Pacific Dogwood",
         image: bcFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/bcFlower.svg"
       },
       fauna: {
         name: "Spirit Bear",
         image: bcAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/bcAnimal.png"
       },
       park: {
         name: "Yoho National Park",
         image: bcPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/bcPark.jpg"
       },
       trivia: {
         name: "",
@@ -885,19 +991,23 @@ const provData = {
     flag: {
       image: nunavutFlag,
       info: "The colours, blue and gold, symbolize the riches of the land, sea and sky. Red is a reference to Canada. The inuksuk - centered - symbolizes stone monuments which guide people on the land, and also marks sacred and other special places. The star is the Niqirtsuituq - North Star - and the traditional guide for navigation and symbolic of the leadership of the elders in the community.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nunavutFlag.svg"
     },
     facts: {
       flora: {
         name: "Purple Saxifrage",
         image: nunavutFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/nunavutFlower.svg"
       },
       fauna: {
         name: "Canadian Inuit Dog",
         image: nunavutAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nunavutAnimal.png"
       },
       park: {
         name: "Auyuittuq National Park",
         image: nunavutPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/nunavutPark.jpg"
       },
       trivia: {
         name: "",
@@ -916,19 +1026,23 @@ const provData = {
     flag: {
       image: quebecFlag,
       info: "The flag of Quebec is often called the “Fleurdelisé”. The white cross on a blue field recalls an ancient French military banner, and the four fleurs-de-lis are symbolic of France. Legend has it that the use of the fleur-de-lis as an emblem of French royalty dates back to the year 496 when Clovis, the first Christian king of France, was baptized by Saint Remigius and is said to have adopted the flower as his personal emblem.",
+      imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/quqbecFlag.svg"
     },
     facts: {
       flora: {
         name: "Iris Versicolor",
         image: quebecFlower,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flags/quqbecFlower.svg"
       },
       fauna: {
         name: "Snowy Owl",
         image: quebecAnimal,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/quebecAnimal.png"
       },
       park: {
         name: "Forillon National Park",
         image: quebecPark,
+        imageUrl: "https://raw.githubusercontent.com/korzenstein/canadaDay/main/src/assets/fauna/quebecPark.jpg"
       },
       trivia: {
         name: "",

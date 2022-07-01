@@ -2,12 +2,12 @@ import { useState } from "react";
 
 // import provincialData from "../data/provincialData";
 
-const Facts = ({ provChoice, provArray, langChoice }) => {
+const Facts = ({ provChoice, langChoice, provData }) => {
   const [factChoice, setFactChoice] = useState([]);
   const radios = {
     english: {
       flora: "Flora",
-      fauna: "Fuana",
+      fauna: "Fauna",
       park: "National Park",
       trivia: "Trivia",
     },
@@ -26,7 +26,6 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
     console.log('clicker')
   };
 
-  console.log(provArray)
 
   return (
     <div className="factsContainer">
@@ -64,6 +63,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
         className="labels"
         htmlFor="trivia" 
         >{radios[langChoice].trivia}</label> */}
+    
 
          <input 
          type="radio" 
@@ -78,7 +78,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
       
       </div>
       <div className="factsData">
-        {provArray.map((item) => {
+        {provData.map((item) => {
           return (
             <>
               {item[0] === provChoice ? (
@@ -92,7 +92,7 @@ const Facts = ({ provChoice, provArray, langChoice }) => {
                     >{item[1].facts[factChoice]?.name}</h5>
                     <img
                       className="floraImage flasher"
-                      src={item[1].facts[factChoice]?.image}
+                      src={item[1].facts[factChoice]?.imageUrl}
                       alt={item[1].facts[factChoice]?.name}
                     />
         

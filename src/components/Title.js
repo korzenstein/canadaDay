@@ -1,4 +1,4 @@
-const Title = ({ provChoice, provArray, langChoice }) => {
+const Title = ({ provChoice, provData, langChoice }) => {
 
   const titleLang = {
     english: {
@@ -20,7 +20,7 @@ const Title = ({ provChoice, provArray, langChoice }) => {
     <div className="titleContainer">
       <h1>{titleLang[langChoice].title}</h1>
       <div className="title">
-        {provArray.map((item) => {
+        {provData.map((item) => {
           return (
             <>
               {item[0] === provChoice ? (
