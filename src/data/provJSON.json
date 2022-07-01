@@ -404,7 +404,7 @@
       "facts": {
         "flora": {
           "name": "Iris Versicolore",
-          "imageUrl": "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/quqbecFlower.svg"
+          "imageUrl": "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/quebecFlower.svg"
         },
         "fauna": {
           "name": "Harfang des Neiges",
@@ -825,7 +825,7 @@
       "facts": {
         "flora": {
           "name": "Iris Versicolor",
-          "imageUrl": "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/quqbecFlower.svg"
+          "imageUrl": "https://raw.githubusercontent.com/korzenstein/canadaDay/1196d66c5cab4108faedc4a41cf345e0dfbb8a4f/src/assets/flora/quebecFlower.svg"
         },
         "fauna": {
           "name": "Snowy Owl",

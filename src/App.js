@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
   const configLocale = {
       method: "get",
-      url: `https://api.jsonbin.io/b/62bcf53f402a5b38024246df`,
+      url: `https://api.jsonbin.io/b/62bf4a53192a674d29253548`,
       headers: {
       'X-Master-Key': '$2b$10$dBNW6g9lshV2AEVlShSKzeSQ2ykDhBbIlfHAE.pnNq2PHIMe.zPRa',
     },
@@ -40,10 +40,11 @@ const App = () => {
 
   const [provChoice, setProvChoice] = useState(["default"]);
   const [flagToggle, setFlagToggle ] = useState(false)
+  const [provData, setProvData] = useState([])
   
   // const newProvArray = Object.entries(provincialData[langChoice])
   // const [provArray, setProvArray] = useState(newProvArray)
-  const [provData, setProvData] = useState([])
+
 
   // useEffect(() => {
   //   const newDataArray = Object.entries(results[langChoice])

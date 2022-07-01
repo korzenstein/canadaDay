@@ -19,11 +19,8 @@ const Facts = ({ provChoice, langChoice, provData }) => {
     }
   }
 
-  console.log(radios[langChoice].flora)
   const handleFacts = (e) => {
     setFactChoice(e.target.value);
-    console.log(e.target.value)
-    console.log('clicker')
   };
 
 
