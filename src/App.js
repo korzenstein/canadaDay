@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
   const configLocale = {
       method: "get",
-      url: `https://api.jsonbin.io/b/62bf4a53192a674d29253548`,
+      url: `https://api.jsonbin.io/v3/b/62ce084a4d5b061b1b4afdff`,
       headers: {
       'X-Master-Key': '$2b$10$dBNW6g9lshV2AEVlShSKzeSQ2ykDhBbIlfHAE.pnNq2PHIMe.zPRa',
     },
@@ -27,7 +27,7 @@ const App = () => {
 
     axios(configLocale)
       .then(function (response) {
-        const results = response.data;
+        const results = response.data.record;
         const newDataArray = Object.entries(results[langChoice])
         setProvData(newDataArray)
       })
@@ -35,6 +35,8 @@ const App = () => {
       .catch(function (error) {
         console.log(error);
       });
+
+  
 
 }, [langChoice])
 
